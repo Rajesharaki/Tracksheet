@@ -1,0 +1,38 @@
+[
+  {
+    "WK": "Wk1",
+    "Desc": "{0} has got the understanding of IDE installation, GIT concepts, basics of C#, Programming constructs, next week {1} will learn Functional programs,Logical programs and OOPS concepts and its implementation"
+  },
+  {
+    "WK": "Wk2",
+    "Desc": "{0} has got the understanding of basics of C#, Class,Abstraction,Encapsulation,Polymorphism,oops concept and implemented Funtional and Logical programs, next week {0} will learn,Generics,DataStructures, OOPS concepts and its implementation"
+  },
+  {
+    "WK": "Wk3",
+    "Desc": "{0} has got the understanding of Generics,DataStructures, OOPS concepts and its implementation next week {1} will learn Regex,UnitTesting,Exception,Reflection,Annotation&Garbage collection,Collections"
+  },
+  {
+    "WK": "Wk4",
+    "Desc": "{0} has got the understanding of Regex,UnitTesting,Exception,Reflection,Annotation&Garbage collection,Collections and next week {1} will learn Lambda Exp,File IO,Third party lib,Design principles,TDD,MSSQL"
+  },
+  {
+    "WK": "Wk5",
+    "Desc": "{0} has got the understanding of  Lambda Exp,File IO,Third party lib,Design principles,TDD,MSSQL and next week {1} will learn ER Diagram,Ado.net,TSQL,Linq,Multi threading"
+  },
+  {
+    "WK": "Wk6",
+    "Desc": "{0} has got the understanding of ER Diagram,Ado.net,TSQL,Linq,Multi threading and next week {1} will learn json server,Node js,Js programming constructs,JS DataStructure,Arrow function."
+  },
+  {
+    "WK": "Wk7",
+    "Desc": "{0} has got the understanding of  json server,Node js,Js programming constructs,JS DataStructure,Arrow function and next week {1} will learn HTML,Css and Flexbox,Html5 Input form and Media query,Add Employee"
+  },
+  {
+    "WK": "Wk8",
+    "Desc": "{0} has got the understanding of  HTML,Css and Flexbox,Html5 Input form and Media query,Add Employee and next week {1} will learn Home page,CRUD operation,Ajax,Async programs"
+  },
+  {
+    "WK": "Wk9",
+    "Desc": "{0} has got the understanding Home page,CRUD operation,Ajax,Async programs,Client-server application"
+  }
+]

@@ -1,0 +1,38 @@
+﻿<Window x:Class="TrackSheetApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrackSheetApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800
+        " Width="1200">
+    <Grid>
+        <Label Content="StudentName" HorizontalAlignment="Left" Margin="19,20,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="cmboStudent"
+                  ItemsSource="{Binding Path=Students}"
+                  SelectedItem="{Binding Path=SItem}"
+                  HorizontalAlignment="Left"
+                  Margin="116,24,0,0" VerticalAlignment="Top" Width="201"/>
+
+        <RadioButton Content="Male" IsChecked="{Binding Male,Mode=TwoWay}"  HorizontalAlignment="Left" Margin="333,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.491,0.898"/>
+        <RadioButton Content="Female" IsChecked="{Binding Female,Mode=TwoWay}" HorizontalAlignment="Left" Margin="400,28,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Weeks" HorizontalAlignment="Left" Margin="474,20,0,0" VerticalAlignment="Top"/>
+        <ComboBox ItemsSource="{Binding Weeks}" 
+                  SelectedItem="{Binding SWeeks}"
+            HorizontalAlignment="Left" Margin="518,24,0,0" VerticalAlignment="Top" Width="150"/>
+
+        <TextBox Text="{Binding WkText}" HorizontalAlignment="Left" TextWrapping="Wrap" Width="729" Height="91" Margin="22,219,0,474"/>
+        <TextBox Text="{Binding AssignmentText}" HorizontalAlignment="Left" Margin="20,331,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="728" Height="94"/>
+        <TextBox Text="{Binding PerfText}" HorizontalAlignment="Left" Margin="22,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="729" RenderTransformOrigin="0.507,1.456" Height="89" Name="Performance"/>
+        <TextBox Text="{Binding FinalText}" HorizontalAlignment="Left" Margin="19,467,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="729" Height="198"/>
+        <Label Content="Performance" HorizontalAlignment="Left" Margin="689,0,0,0" VerticalAlignment="Top" Width="101"/>
+        <ComboBox ItemsSource="{Binding Performance}" 
+                  SelectedItem="{Binding Sperf}" HorizontalAlignment="Left" Margin="673,24,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox ItemsSource="{Binding Tasks}" 
+                  SelectedItem="{Binding STasks}" HorizontalAlignment="Left" Margin="116,65,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Tasks" HorizontalAlignment="Left" Margin="22,61,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox Text="{Binding ExtraDesc}" HorizontalAlignment="Left" Margin="831,35,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="333" Height="258"/>
+    </Grid>
+</Window>
